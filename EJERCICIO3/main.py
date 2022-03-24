@@ -9,6 +9,6 @@ if __name__ == "__main__":
     cuenta.retirar(78)
     cuenta.transferir(2000)
 
-    print(get)
+    print(cuenta.get_saldo())
 
 
