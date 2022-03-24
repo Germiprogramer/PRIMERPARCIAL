@@ -1,4 +1,4 @@
-from EJERCICIO2.animal import *
+from animal import *
 
 class Animal_mamifero(Animal):
     def __init__(self, nombre, tamaño):

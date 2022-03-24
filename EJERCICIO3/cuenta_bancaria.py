@@ -14,11 +14,17 @@ class Cuenta_bancaria:
 
     def retirar(self):
         dinero = int(input("¿¿Cuanta pasta quieres sacar?? "))
-        self.saldo = self.saldo - dinero
+        if dinero>self.saldo:
+            pass
+        else:
+            self.saldo = self.saldo - dinero
         return self.saldo
 
     def transferir(self):
         dinero = int(input("¿¿Cuanta pasta quieres transferir?? "))
-        self.saldo = self.saldo - dinero
-        print("Has hecho a alguien más feliz")
+        if dinero>self.saldo:
+            pass
+        else:
+            self.saldo = self.saldo - dinero
+            print("Has hecho a alguien más feliz")
         return self.saldo

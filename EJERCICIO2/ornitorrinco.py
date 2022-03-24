@@ -1,5 +1,5 @@
-from EJERCICIO2.animal import * 
-from EJERCICIO2.animal_mamifero import *
+from animal import * 
+from animal_mamifero import *
 
 class Ornitorrinco(Animal_mamifero):
     def __init__(self, nombre, tamaño):
