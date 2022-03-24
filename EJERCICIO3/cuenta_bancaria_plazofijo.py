@@ -5,6 +5,12 @@ class Cuenta_bancaria_plazofijo(Cuenta_bancaria):
         super().__init__(ID, nombre_titular, fecha_de_apertura, numero_cuenta, saldo)
         self.fecha_de_vencimiento = fecha_de_vencimiento
 
+    def get_fecha_de_vencimiento(self):
+        return self.fecha_de_vencimiento
+
+    def set_fecha_de_vencimiento(self, a):
+        self.fecha_de_vencimiento= a
+
     
     def retirar(self):
         dinero = int(input("¿¿Cuanta pasta quieres sacar?? "))
