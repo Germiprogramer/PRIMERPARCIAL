@@ -5,3 +5,12 @@ class Cuenta_bancaria:
         self.fecha_de_apertura = fecha_de_apertura
         self.numero_cuenta = numero_cuenta
         self.saldo = saldo
+
+    def ingresar(self):
+        pass
+
+    def retirar(self):
+        pass
+
+    def transferir(self):
+        pass
